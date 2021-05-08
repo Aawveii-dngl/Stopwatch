@@ -65,6 +65,6 @@ function Reset() {
   timesec = 0;
   timemin = 0;
   timehr = 0;
-  document.getElementById("display").innerHTML = "00.00.00.00";
+  document.getElementById("display").innerHTML = "00:00:00:00";
   document.getElementById("manage").innerText = "Start";
 }
