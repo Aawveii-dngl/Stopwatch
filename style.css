@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+}
+.total-wrapper {
+  margin: 0px auto;
+  display: block;
+  text-align: center;
+  background-color: coral;
+  height: 200px;
+  width: 320px;
+}
+.display {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 3px;
+  width: 80%;
+  height: 55%;
+  background: rgb(236, 235, 228);
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.display > h1 {
+  font-size: 40px;
+  margin-top: 20px;
+}
+.buttons {
+  text-align: center;
+}
+
+button {
+  height: 30px;
+  width: 100px;
+  font-weight: 700;
+  background-color: darkgray;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 10px;
+}
